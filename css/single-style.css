@@ -1,0 +1,21 @@
+.single-article{
+    width: 70%;
+    margin:50px auto;
+    padding: 2em;
+    background-color: aliceblue;
+}
+.single-article > p{
+    font-size: 30px;
+    overflow-wrap: anywhere;
+}
+.comments{
+    margin: 20px 0;
+}
+.comments > form{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.comments > form > textarea{
+resize: none;
+}
